@@ -97,9 +97,9 @@
       "integrity": "sha512-6YqyX6ZWEYguAxgZzHGL7SsCeGx3V2TtOTqZz1xSTSWnqsbWwbptafNyvf/ACquZUXV3DANr5BDIwNYe1mN42w=="
     },
     "svelte": {
-      "version": "3.6.5",
-      "resolved": "https://registry.npmjs.org/svelte/-/svelte-3.6.5.tgz",
-      "integrity": "sha512-9H7IczBJChcqdmF7AeIw0S39EgS76StLL8gDVTrDfgb/nfZHBgxFYJ35zar7Ua+AekyLETKVw81hZ1Zel4YcUA=="
+      "version": "3.6.7",
+      "resolved": "https://registry.npmjs.org/svelte/-/svelte-3.6.7.tgz",
+      "integrity": "sha512-9HzhPxWNLi+ZBhxL3HJ8jwwu+u+XfHtVF3uEJ2m8/JOdnaTC9D2qiEwOncgI7z/pN+VumgKQtZoHtvYCW6fHqg=="
     },
     "util-deprecate": {
       "version": "1.0.2",
