@@ -1,6 +1,6 @@
 Package.describe({
   name: 'svelte:compiler',
-  version: '3.19.1_1',
+  version: '4.0.0-beta.2',
   summary: 'Svelte compiler',
   git: 'https://github.com/meteor-svelte/meteor-svelte.git',
   documentation: 'README.md'
@@ -9,20 +9,20 @@ Package.describe({
 Package.registerBuildPlugin({
   name: 'svelte-compiler',
   use: [
-    'babel-compiler@7.5.2',
-    'caching-compiler@1.2.1',
-    'ecmascript@0.14.1'
+    'babel-compiler@7.5.3',
+    'caching-compiler@1.2.2',
+    'ecmascript@0.14.3'
   ],
   sources: [
     'SvelteCompiler.js',
     'plugin.js'
   ],
   npmDependencies: {
-    '@babel/runtime': '7.8.4',
+    '@babel/runtime': '7.9.6',
     'find-up': '3.0.0',
     htmlparser2: '3.10.1',
-    'source-map': '0.5.6',
-    svelte: '3.19.2'
+    'postcss': '7.0.17',
+    'source-map': '0.5.6'
   }
 });
 
@@ -35,6 +35,7 @@ Package.onUse(function (api) {
     'modules',
     'ecmascript-runtime',
     'babel-runtime',
-    'promise'
+    'promise',
+    'dynamic-import'
   ]);
 });
